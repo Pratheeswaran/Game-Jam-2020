@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{257FCBCB-09D5-D482-BFC6-F0072585F1A5}|">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Assets/Scripts/GameController.cs" Line="86" Column="26" />
+      <File FileName="Assets/Scripts/Mario.cs" />
+      <File FileName="Assets/Scripts/Ground.cs" />
+      <File FileName="Assets/Scripts/EndScene.cs" />
+      <File FileName="Assets/Scripts/StartScene.cs" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d9b5d862-52a7-4491-80d3-fc3a9ee197ef" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

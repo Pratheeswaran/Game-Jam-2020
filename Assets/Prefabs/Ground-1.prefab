@@ -608,6 +608,7 @@ GameObject:
   - component: {fileID: 7800400461413159024}
   - component: {fileID: 7520676922697152699}
   - component: {fileID: 3230178501661355726}
+  - component: {fileID: 8988028226465537146}
   m_Layer: 8
   m_Name: Ground-1
   m_TagString: Ground
@@ -638,6 +639,7 @@ Transform:
   - {fileID: 7109243972009554770}
   - {fileID: 4844898537967419060}
   - {fileID: 7372176048145829595}
+  - {fileID: 8400367659764203851}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -693,6 +695,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.9839363, y: 2.0691257}
   m_EdgeRadius: 0
+--- !u!114 &8988028226465537146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4846655524722404445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1652dde421a47d786de8d40e323d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 0
+  itemsToSpawn:
+  - {fileID: 8344668443036000541, guid: 041537d6928794b7e83582876f163644, type: 3}
+  - {fileID: 4251967537027102, guid: 03fed97be8a314a69b857e1deffad4bf, type: 3}
+  bricksToSpawn:
+  - {fileID: 4534617502271846, guid: 397b4ca7141824017a192a253f142ea7, type: 3}
+  - {fileID: 4976963381473932, guid: 757ac04e0014c483dbbbcc173d8d169c, type: 3}
+  enableSpawn: 1
 --- !u!1 &5708357267818726745
 GameObject:
   m_ObjectHideFlags: 0
@@ -1017,3 +1039,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &9122499202709120649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8400367659764203851}
+  m_Layer: 0
+  m_Name: StartPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8400367659764203851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9122499202709120649}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.41, y: 0.25156528, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7800400461413159024}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

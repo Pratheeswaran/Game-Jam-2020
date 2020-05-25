@@ -4,13 +4,7 @@ using UnityEngine;
 
 public class FloatingTextEffect : MonoBehaviour {
 
-	// Use this for initialization
 	void Start () {
 		GetComponent<MeshRenderer> ().sortingLayerName = "Player";
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }
