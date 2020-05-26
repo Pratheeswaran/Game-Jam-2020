@@ -114,7 +114,8 @@ public class Mario : MonoBehaviour
         isDying = true;
         rigidBody.bodyType = RigidbodyType2D.Kinematic;
         animator.SetTrigger("respawn");
-        levelController.mainTheme.Stop();
+        levelController.mainTheme.Pause();
+        levelController.hurryMario.Pause();
         levelController.deadMario.Play();
         gameController.GameOver();
     }
