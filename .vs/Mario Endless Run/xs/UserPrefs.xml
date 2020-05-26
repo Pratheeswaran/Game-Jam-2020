@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{257FCBCB-09D5-D482-BFC6-F0072585F1A5}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameController.cs" Line="70" Column="16" />
+      <File FileName="Assets/Scripts/Mario.cs" />
+      <File FileName="Assets/Scripts/Ground.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/EndScene.cs" Line="24" Column="29" />
+      <File FileName="Assets/Scripts/StartScene.cs" Line="19" Column="18" />
+      <File FileName="Assets/Scripts/Parallax.cs" />
+      <File FileName="Assets/Scripts/LevelController.cs" Line="95" Column="43" />
+      <File FileName="Assets/Scripts/MainCamera.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mario Endless Run" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="LevelController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

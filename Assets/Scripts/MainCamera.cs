@@ -14,7 +14,6 @@ public class MainCamera : MonoBehaviour {
 	private Vector3 targetPosition;
 
 
-	// Use this for initialization
 	void Start () {
 		Mario mario = FindObjectOfType<Mario> ();
 		target = mario.gameObject;
@@ -36,7 +35,6 @@ public class MainCamera : MonoBehaviour {
 	}
 
 
-	// Update is called once per frame
 	void Update () {
 		if (canMove) {
 			bool passedLeftEdge = transform.position.x < leftEdge.position.x + cameraWidth;
@@ -60,9 +58,6 @@ public class MainCamera : MonoBehaviour {
 			}
 		}
 			
-
-
-
 //		void Update () { // can move camera both left and right
 //			if (canMove) {
 //				bool passedLeftEdge = transform.position.x < leftEdge.position.x + cameraWidth;
